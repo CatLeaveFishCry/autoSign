@@ -1,0 +1,52 @@
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            text-align: center;
+        }
+        #alertBtn {
+            box-sizing: border-box;
+            padding: 50px 100px;
+            border: none;
+            background-color: #409EFF;
+            font-size: 2.5em;
+            color: #fff;
+            cursor: pointer;
+        }
+        .box {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-sizing: border-box;
+            display: none;
+        }
+
+        #signBtn {
+            box-sizing: border-box;
+            padding: 50px 100px;
+
+            border: none;
+            background-color: #409EFF;
+            font-size: 2.5em;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .time {
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .progress {
+            width: 0;
+            height: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #F56C6C;
+        }
