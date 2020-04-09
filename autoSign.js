@@ -4,8 +4,8 @@ var myInter;
 //按钮类名或id，类名就正常复制页面里，id的话加个#
 //如：btnName = _getDomName('btn activeBtn curBtn')
 //    btnName = _getDomName('#loginBtn')
+// btnName = _getDomName('s-btn s-btn--primary s-btn--m')腾讯课堂签到按钮
 var btnName = _getDomName('');
-
 
 function _getDomName(str) {
     if (!str) {
