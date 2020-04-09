@@ -19,7 +19,8 @@
     ```
 
 -    2. **不知道按钮的class或id**
-    好好听课👉出现按钮后，找到类名或id👉输入btnName= getDomName(你的类名或id名)，id名需在最前面添加#
+>    好好听课👉出现按钮后，找到类名或id
+    👉输入btnName= getDomName(你的类名或id名)，id名需在最前面添加#
     ```javascript
     //按钮类名或id，类名就正常复制页面里，id的话加个#
     //如：btnName = getDomName('btn activeBtn curBtn')
