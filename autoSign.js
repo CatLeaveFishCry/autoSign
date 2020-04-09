@@ -1,4 +1,4 @@
-var interval = 5000;
+var interval = 1000;
 var signList = [];
 var myInter;
 //按钮类名或id，类名就正常复制页面里，id的话加个#

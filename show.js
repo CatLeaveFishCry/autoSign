@@ -1,8 +1,6 @@
 alertBtn.onclick = function () {
     alertTheBtn()
 }
-
-
 function alertTheBtn() {
     let box = document.querySelector('.box');
     box.innerHTML = `
@@ -17,8 +15,10 @@ function alertTheBtn() {
     let curTime = totalTime;
     let successSign = false;
     let progress = document.querySelector('.progress');
+    let signBtn = document.querySelector('#signBtn')
     let time = document.querySelector('.time');
     let timer = null;
+
     time.innerText = curTime;
     let start = false;
 
@@ -46,7 +46,7 @@ function alertTheBtn() {
 
 
 
-        }, 1000)
+        }, 3000)
     })();
     function animation(dom, objInfo, duration) {
         let str = '';
@@ -69,12 +69,13 @@ function alertTheBtn() {
         signBtn.innerText = '签到✔'
         setTimeout(() => {
             box.style.display = 'none';
-            progress.remove();
-            time.remove();
-            signBtn.remove()
+
+            progress && progress.remove();
+            time && time.remove();
+            signBtn && signBtn.remove()
             setTimeout(() => {
                 alertTheBtn()
-            }, 1000);
-        }, 1000)
+            }, 6000);
+        }, 500)
     }
 }
