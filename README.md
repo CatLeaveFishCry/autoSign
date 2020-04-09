@@ -20,6 +20,7 @@
 
 -    2. **不知道按钮的class或id**
 >    btnName = getDomName('s-btn s-btn--primary s-btn--m')腾讯课堂签到按钮
+
 >    好好听课👉出现按钮后，找到类名或id
 
     输入btnName= getDomName(你的类名或id名)，id名需在最前面添加#
